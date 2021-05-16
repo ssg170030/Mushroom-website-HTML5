@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Ubuntu+Mono&display=swap');
+
+body{
+
+	background-color: lightblue;
+	
+	}
+
+	/*Google font M PLUS Rounded 1c, Ubuntu Mono*/
+	h1{
+		font-family: 'M PLUS Rounded 1c', 'Ubuntu Mono', Arial, sans-serif;
+		color: brown;
+		text-align: center;
+	}
+
+
+		h3{
+			text-align: center;
+			font-family: 'M PLUS Rounded 1c', 'Ubuntu Mono', Arial, sans-serif;
+		}
+
+			p{
+
+				
+			}
+			/*aligns text slighty to the right*/
+			.aligntext{
+				padding-left: 100px auto;
+  				font-size: 30px;
+  				padding: 2em;
+			}
+
+					ul{
+					  font-size: 25px; 
+					}
+						.container {
+
+ 							padding: 1em;
+ 							margin: 0px
+  							padding: 10px;
+  							border: 5px solid gray;
+  							margin: 100px auto;
+  							text-align: center;
+								} 
+
+						.leftcontainer
+							{
+							padding: 1em;
+							margin: 50px;
+  							padding: 10px;
+  							border: 5px solid gray;
+  							margin right: 100px auto;
+  							width: 300px;
+
+							}
+
+							/*Centers the table to the middle of the webpage*/
+						.center{
+							margin-right: auto;
+							margin-left: auto;
+
+						}
+
+							/*Dashed line to break up the webpage*/
+							.line{
+								border-bottom: 6px dashed black;
+							}
+								/*Centers an image*/
+							.imagecenter{
+								display: block;
+								margin-right: auto;
+								margin-left: auto;
+								width: 50%;
+							}
+							/*Styling the Table*/
+					table, th, td{
+
+						border:1px solid black;
+						border-collapse: collapse; 
+						text-align: center;
+					}
+
+				th,td{
+						padding: 5px;
+				}
+
+			td{
+				text-align: left;
+			}
+
+			tr:nth-child(odd){
+				background: #ffffff;
+			}
+
+		tr:nth-child(even){
+			background: #e1e1e1;
+		}
+
+
+					

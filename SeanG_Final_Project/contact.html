@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<title>Contact Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Ubuntu+Mono&display=swap"rel="stylesheet">
+<!--You need to put this code in every html file where you use Font Awesome icons.-->
+   <script src="https://kit.fontawesome.com/7b8f9436e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<!-- header code goes in here -->
+	</header>
+
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8">
+               <h1><a href="index.html"><img src="images\mushroomlogo.png" href="index.html" 
+                  alt="mushroom logo"width="76.25" height="79.25"></a>Contact Us</h1>
+               
+			   <p>If you have any questions or need any information, please send us an email.</p>
+               <form id="contact-form" method="post" action="contact.php" role="form">
+                  <div class="messages"></div>
+                  <div class="controls">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="form-group">
+                              <label for="form_name">First Name</label>
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Required" required="required" data-error="Firstname is required.">
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form-group">
+                              <label for="form_lastname">Last Name</label>
+                              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Required" required="required" data-error="Lastname is required.">
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="form-group">
+                              <label for="form_email">Email</label>
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Required" required="required" data-error="Valid email is required.">
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form-group">
+                              <label for="form_phone">Phone</label>
+                              <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Optional" >
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="form-group">
+                              <label for="form_message">Message</label>
+                              <textarea id="form_message" name="message" class="form-control" rows="4" required="required" placeholder="Required" data-error="Please,leave us a message."></textarea>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="validator.js"></script>
+      <script src="contact.js"></script>
+
+      <footer>
+         © All rights reserved. 
+         <cite>Harding, Simon, and David Kelly.<br> Agaricus sylvaticus Schaeff. - Blushing Wood Mushroom.<br>First Nature. First Nature,<br>www.first-nature.com/fungi/agaricus-sylvaticus.php. Accessed 12 May 2021.</cite>
+     </footer>
+   </body>
+</html>
+
